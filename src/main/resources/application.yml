@@ -1,0 +1,11 @@
+server:
+  port: 1002
+#指定项目对外的名字，为方便记忆与项目名一致就行了
+spring:
+  application:
+    name: eureka-pet-client
+#将此服务注册到注册中心的服务端中，此处的地址为Eureka服务端对外公开的地址
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1000/eureka/
