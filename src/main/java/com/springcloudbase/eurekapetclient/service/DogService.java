@@ -4,6 +4,9 @@ import com.springcloudbase.eurekapetclient.entity.Dog;
 
 import java.util.List;
 
+/**
+ * @author gaolingfeng
+ */
 public interface DogService {
 
     /**

@@ -6,6 +6,9 @@ import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
+/**
+ * @author gaolingfeng
+ */
 @Service
 public class DogServiceImpl implements DogService {
     @Override
